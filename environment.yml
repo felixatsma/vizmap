@@ -1,0 +1,22 @@
+name: vizmap
+
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7.5
+  - conda-forge::nodejs
+  - conda-forge::rasterio
+  - conda-forge::ipyleaflet
+  - conda-forge::ipywidgets
+  - jupyter
+  - jupyterlab
+  - gdal
+  - pillow
+  - affine
+  - numpy
+  - netcdf4
+  - matplotlib
+  - pip
+  - pip:
+    - geojson
